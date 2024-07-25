@@ -23,6 +23,7 @@ import java.util.Optional;
 @RequestMapping("/series")
 public class SeriesController {
 
+    @Autowired
     private SeriesService seriesService;
 
 
