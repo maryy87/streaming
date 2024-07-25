@@ -24,6 +24,9 @@ import java.util.Optional;
 public class SeriesController {
 
 
+
+
+    @Autowired
     private SeriesService seriesService;
 
 
